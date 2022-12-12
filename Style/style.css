@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Post No Bills Jaffna" !important ;
+}
+@font-face {
+    font-family:  "Post No Bills Jaffna"  ;
+    src: url(../Font/Post\ No\ Bills\ Jaffna\ Bold\ 700.ttf);
+}
+.container-big{
+  width: 1360px;
+}
+.header-top{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 1365px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+}
+.nav-left li , .nav-left a {
+ display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
+}
+.box-right li , .box-right a{
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+}
+.nav-left li{
+    padding: 15px;
+}
+.box-right li{
+    font-size: 12px;
+    color: #969696;
+    padding: 15px;
+}
+.nav-left li a{
+    color: #969696;
+    font-size: 12px;
+}
+.header-bootom{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    margin-top: 44px;
+    width: 1365px;
+    background-color:  #0F0F0F;
+}
+.about{
+font-family: 'post-no-bills-jaffna-semibold', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 54px;
+color: white !important;
+
+}
+.attention{
+    color: #FFFFFF;
+    width: 160px;
+    background-color: #1F1F1F;
+}
+.box2-left li a{
+    margin-top: 2px;
+    display: inline-block;
+    text-decoration: none;
+    color: #969696;
+}
+.box2-left li{
+    list-style-type: none;
+}
+.box2-right{
+    display: flex;
+}
+.box2-right li{
+    list-style-type: none;
+    padding-top: 20px;
+}
+.box2-right a{
+    text-decoration: none;
+    color: #969696;
+    padding: 35px;
+}
+.box-img{
+    position: absolute;
+    width: 1365px;
+    height: 557px;
+    left: 0px;
+    right: 0;
+    top: 100px;
+    background: linear-gradient(0deg, rgba(10, 10, 10, -10), rgba(15, 15, 15, -10)), url(../images/Human-img.png);
+    background-size: 100% 600px;
+   
+}
+.home-logo{
+box-sizing: border-box;
+position: absolute;
+width: 250px;
+height: 250px;
+left: 570px;
+top: 200px;
+border: 2px solid #FFFFFF;
+}
+.home-logo h1{
+font-family: 'Post No Bills Jaffna' , sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 50px;
+text-align: center;
+color: #FFFFFF;
+padding-top: 50px;
+}
+.home-logo hr{
+width: 75%;
+   margin: 0 auto;
+   margin-top: 5px;
+}
+.home-logo p{
+font-family: 'PT Sans' , sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-top: 10px;
+}
+.mouse p {
+font-family: 'PT Sans' , sans-serif !important;
+position: absolute;
+width: 730px;
+height: 96px;
+left: 350px;
+top: 470px;
+font-family: 'PT Sans' , sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.section{
+    position: absolute;
+    width: 1365px;
+    left: 0px;
+    top: 655px;
+}
+.menus-left-text{
+font-family: 'Playfair Display' , sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 48px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-top: 40px;
+}
+.menus-left-text hr{
+    width: 10%;
+    height: 1%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.menus-left{
+position: absolute;
+width: 50%;
+left: 0px;
+background: #000000;
+}
+.menus-img{
+    width: 200px;
+    height: 280px;
+    margin-left: 20px;
+}
+.watch-icon{
+display: flex;
+position: absolute;
+width: 180px;
+left: 20px;
+top: 250px;
+}
+.watch-img{
+width: 180px;
+height: 200px;
+top: 250px;
+}
+.watch-img2{
+width: 180px;
+height: 200px;
+margin-left: 50px;
+top: 250px;
+}
+.watch-img3{
+width: 180px;
+height: 200px;
+margin-left: 50px;
+top: 250px;
+}
+.text-img{
+width: 663px;
+height: 100px;
+display: flex;
+justify-content: flex-start;
+position: absolute;
+font-family: 'Playfair Display' ,sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+top: 220px;
+background-color: #000000;
+}
+.text{
+    font-family: 'Playfair Display' ,sans-serif !important;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 75px;
+}
+.rasm1{
+position: absolute;
+width: 50%;
+height: 570px;
+left: 50%;
+background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url(../images/People-img.png), #000000;
+}
+.text-2 h1{
+ margin-top: 50%;
+ text-align: center;
+ color: #FFFFFF;
+font-family: 'Playfair Display' ,sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 33px;
+line-height: 48px;
+text-align: center;
+text-transform: uppercase;
+
+}
+.text-2 button{
+    width: 200px;
+    height: 60px;
+    border: 1px solid #ffffff;
+    background: transparent;
+    padding: 10px 20px;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 35%;
+    font-family: 'PT Sans' , sans-serif !important;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+     letter-spacing: 0.1em;
+     text-transform: uppercase;
+}
+.new-card {
+    width: 1365px;
+    height: 500px;
+    padding-top: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.new-left {
+    width: 50%;
+    height: 500px;
+    background-image: url("../images/People2.png");
+    background-size: cover;
+    background-position: center center ;
+}
+.new-rigth{
+    width: 50%;
+    height: 500px;
+    background-color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-about7 h1{
+padding-left: 100px;
+font-family: 'Playfair Display' , sans-serif !important;
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 48px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+padding-top: 100px;
+}
+.text-about7 p{
+font-family: 'PT Sans' , sans-serif !important;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+text-align: center;
+color: #FFFFFF;
+padding-top: 40px;
+padding-left:   100px;
+}
+.text-about7 button{
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.img-section7{
+    padding-top: 50%;
+    background-color: #000000;
+}
+.watch-replay img{
+    margin-top: 100px;
+    margin-left: 20px;
+    background-color:  #191B1C;
+}
+.watch-replay{
+    background-image: url(../images/Watch-img.png);
+}
+.img-section7 h1{
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 45px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
